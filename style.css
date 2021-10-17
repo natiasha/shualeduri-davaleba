@@ -276,6 +276,7 @@
        justify-content: space-between;
        flex-wrap: nowrap;
        flex-direction: row;
+       font-weight: lighter;
    }
    .item{
        font-size: 16px;    
