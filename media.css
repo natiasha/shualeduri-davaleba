@@ -1,0 +1,218 @@
+/* რესფონსივის სტილები */
+
+/* ტაბლეტის რეზოლუცია */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 80%;
+    }
+    
+@media (max-width: 1024px) {
+.container{
+    max-width: 1024px;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    }
+    
+ #vertical-blok1{
+ width: min-content;
+ display: list-item;
+ align-self: flex-start;
+position: absolute;
+}
+.container2{
+    max-width: 1024px;
+    width:max-content;
+    align-content: center;
+}
+ #nav-1 {
+    display: none;
+}
+#search-area{
+    display: none;
+}
+ #nav-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(23, 26, 25);
+    max-width: 1024px;
+    width: max-content;
+}
+  #filter{
+    display: none;
+}
+  .nav-3{
+    display: flex;
+    flex-direction: column;
+    width:max-content;
+    align-items: center;
+    max-width: 1024px;
+}
+.row-3{display: flex;
+flex-direction: column;
+min-width: 1024px;}
+}
+.top-designers{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 1024px;
+    width: max-content;
+}
+    
+.for-designers{
+     display: none;
+}
+.menu{
+    display: none;
+}
+#d2{
+    display: none;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+/* პატარა ტაბლეტის რეზოლუცია */
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 768px;
+        display: flex;
+        width: max-content;
+        flex-direction: column;
+        }
+        
+     #vertical-blok1{
+     display: flow-root;
+    position: absolute;
+    }
+    .container2{
+        max-width: 768px;
+        width:max-content;
+        align-content: center;
+    }
+     #nav-1 {
+        display: none;
+    }
+    #search-area{
+        display: none;
+    }
+     #nav-2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(23, 26, 25);
+        max-width: 768px;
+        width: max-content;
+    }
+      #filter{
+        display: none;
+    }
+      .nav-3{
+        display: flex;
+        flex-direction: column;
+        width:max-content;
+        align-items: center;
+        max-width: 768px;
+    }
+    .row-3{display: flex;
+    flex-direction: column;
+    min-width: 768px;}
+    }
+    .top-designers{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        max-width:768px;
+        width: max-content;
+    }
+        
+    .for-designers{
+         display: none;
+    }
+    .menu{
+        display: none;
+    }
+    #d2{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* მობილურის რეზოლუცია */
+@media (max-width: 480px) {
+    .container{
+        max-width: 480px;
+        display: flex;
+        width: max-content;
+        flex-direction: column;
+        }
+        
+     #vertical-blok1{
+    display: -moz-box;
+    }
+    .container2{
+        max-width: 480px;
+        width:max-content;
+        align-content: center;
+    }
+     #nav-1 {
+        display: none;
+    }
+    #search-area{
+        display: none;
+    }
+     #nav-2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(23, 26, 25);
+        max-width: 480px;
+        width: max-content;
+    }
+      #filter{
+        display: none;
+    }
+      .nav-3{
+        display: flex;
+        flex-direction: column;
+        width:max-content;
+        align-items: center;
+        max-width: 480px;
+    }
+    .row-3{
+    display: flex;
+    flex-direction: column;
+    min-width: 480px;}
+    }
+    .top-designers{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        max-width: 480px;
+        width: max-content;
+    }
+        
+    .for-designers{
+         display: none;
+    }
+    .menu{
+        display: none;
+    }
+    #d2{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    
+    }
+
