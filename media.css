@@ -17,10 +17,8 @@
     }
     
  #vertical-blok1{
- width: min-content;
+ width: max-content;
  display: list-item;
- align-self: flex-start;
-position: absolute;
 }
 .container2{
     max-width: 1024px;
@@ -76,7 +74,6 @@ min-width: 1024px;}
     display: flex;
     flex-direction: column;
 }
-
 }
 /* პატარა ტაბლეტის რეზოლუცია */
 
@@ -213,6 +210,5 @@ min-width: 1024px;}
     .logo{
         display: none;
     }
-    
     }
 

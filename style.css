@@ -22,10 +22,8 @@
     }
     #vertical-blok1{
         margin: auto;
-        position: relative;
-        padding-top: 2px;
         position: fixed;
-        width: 319px;
+        max-width: 319px;
         height: 1080px;
         background-color:black;
         display: flex;
@@ -74,8 +72,7 @@
     }
     
     #nav-1{
-        display: inline-flex;
-        
+        display: inline-flex;        
         align-content: flex-end;
     }
     li{
